@@ -1,0 +1,12 @@
+.lead{
+  display: flex;
+  flex-direction: column;
+  max-width: calc(100% - 96px);
+  margin: 0 auto 0;
+  overflow: hidden;
+}
+@media screen and (min-width: 1280px){
+  .lead{
+    max-width: calc(100% - 296px);
+  }
+}
