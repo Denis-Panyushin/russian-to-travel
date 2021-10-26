@@ -1,21 +1,26 @@
-.header__lang-link{
+.header__lang-link {
   display: flex;
   color: #FFFFFF;
   margin: 0;
-  margin-left: 18px;
   transition: .5s linear;
+  font-family: "Inter";
+  font-style: normal;
   font-weight: normal;
   font-size: 1.5rem;
   line-height: 1.75px;
 }
-.header__lang-link:lang(en){
+.header__lang-link:lang(en) {
   text-decoration: none;
+  margin-left: 18px;
 }
-.header__lang-link:hover{
+.header__lang-link:hover {
   opacity: 0.3;
 }
-@media screen and (min-width: 320px) and (max-width: 425px){
-  .header__lang-link{
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .header__lang-link {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: normal;
     font-size: 1.125rem;
     line-height: 1.25rem;
   }
