@@ -5,8 +5,8 @@
   background-size: cover;
   background-position: center;
   position: relative;
-  box-sizing: border-box;
   padding: 195px 232px;
+  box-sizing: border-box;
 }
 .cover::before {
   content: "";

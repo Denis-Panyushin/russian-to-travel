@@ -1,12 +1,13 @@
 .place {
-  min-width: calc(100% - 96px);
   display: grid;
+  min-width: calc(100% - 96px);
   gap: 48px 32px;
-  grid-template-columns: minmax(320px, 460px) 1fr;
+  grid-template-columns: minmax(320px, 440px) 1fr;
   grid-template-rows: auto;
   grid-template-areas:
     "title website"
     "image paragraph";
+  box-sizing: border-box;
 }
 @media screen and (min-width: 320px) and (max-width: 425px) {
   .place {
