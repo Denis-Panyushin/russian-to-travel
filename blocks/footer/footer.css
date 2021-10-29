@@ -26,6 +26,7 @@
 }
 @media screen and (min-width: 1280px) {
   .footer {
-    min-width: calc(100% - 96px);
+    max-width: calc(1280px - 96px);
+    margin: 0 auto;
   }
 }

@@ -23,6 +23,7 @@
 }
 @media screen and (min-width: 1280px) {
   .places {
-    margin: 0 148px;
+    max-width: calc(1280px - 296px);
+    margin: 0 auto;
   }
 }
