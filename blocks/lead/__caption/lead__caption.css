@@ -2,7 +2,7 @@
   margin: 0;
   margin-top: 8px;
   text-align: start;
-  font-family: "Inter";
+  font-family: 'Inter', 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: normal;
   font-size: 0.625rem;
@@ -10,4 +10,14 @@
   text-transform: uppercase;
   color: #FFFFFF;
   letter-spacing: 1.5px;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .lead__caption {
+    padding-left: 16px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .lead__caption {
+    padding-left: 24px;
+  }
 }

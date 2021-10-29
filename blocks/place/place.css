@@ -9,7 +9,7 @@
     "image paragraph";
   box-sizing: border-box;
 }
-@media screen and (min-width: 320px) and (max-width: 425px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .place {
     grid-template-rows: repeat(auto-fit, fit-content(425px));
     grid-template-columns: auto;

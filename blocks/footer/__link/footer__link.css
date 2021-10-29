@@ -1,6 +1,6 @@
 .footer__link {
   text-decoration: none;
-  font-family: "Inter";
+  font-family: 'Inter', 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: normal;
   font-size: 1rem;
@@ -10,9 +10,9 @@
   transition: .5s linear;
 }
 .footer__link:hover {
-  opacity: .4;
+  opacity: .8;
 }
-@media screen and (min-width: 320px) and (max-width: 425px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .footer__link {
     justify-self: start;
     margin: 0;
